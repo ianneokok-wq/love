@@ -1,5 +1,4 @@
-
-<html lang="en">
+asidel lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -54,8 +53,7 @@
         </div>
         <footer>I failed as your man.</footer>
       </div>
-
-      <aside class="side photo">
+   <aside class="side photo">
         <img id="mainPhoto" src="ashley.jpg" style="opacity:0lt="Couple photo">
         <div class="caption">Look You're so beautiful ✨</div>
       </aside>
