@@ -46,7 +46,12 @@
         </div>
         <footer>I failed as your man.</footer>
       </div>
-      
+     <aside class="side photo">
+        <img id="mainPhoto" src="ashley.jpg" style="opacity:0lt">
+        <div class="caption">Look You're so beautiful ✨</div>
+      </aside>
+    </div>
+ 
       
     
   </div>
