@@ -31,6 +31,8 @@
   </style>
 </head>
 <body>
+  <audio  id="mySong" src="okay.mp3" autoplay></audio>
+  <a class="ianne" href="ianne.html"></a>
   <div class="card">
     <div class="split">
       <div class="greeting">
@@ -43,6 +45,8 @@
         </div>
         <div class="controls">
           <button id="surpriseBtn">Show Surprise</button>
+          <button onclick="playSong()">Play Song</button>
+          <button id="loveBtn">love.</button>
         </div>
         <footer>I failed as your man.</footer>
       </div>
@@ -80,6 +84,14 @@
 
     document.getElementById('surpriseBtn').addEventListener('click', ()=>{
       document.getElementById('longmsg').textContent = "I felt Lonely nung nawala ka, but it's okay you atleast you're happy now, i like to say that, mahal kita, minahal kita. i will stop coming to you, sorry for being not good enough, i'm really sorry for what i did, maybe in another universe it will be you and me.";
+    });
+    function playSong() {
+      const song = document.getElementById("mySong");
+      song.play();
+    }
+  document.getElementById('loveBtn').addEventListener('click', () => {
+      // Make sure ianne.html exists in the same folder
+      window.location.href = 'ianne.html';
     });
   </script>
 </body>
